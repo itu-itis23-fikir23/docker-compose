@@ -96,9 +96,10 @@ docker compose exec postgres psql -U de_user -d de_demo
 To use pgAdmin in the browser:
 
 1. Open <http://localhost:5050>
-2. Right-click **Servers → Register → Server**
-3. **General** tab → Name: `de_demo`
-4. **Connection** tab:
+2. Log in with `admin@example.com` / `admin`
+3. Right-click **Servers → Register → Server**
+4. **General** tab → Name: `de_demo`
+5. **Connection** tab:
    - Host: `postgres`  (the service name on the Docker network)
    - Port: `5432`
    - Username: `de_user`
