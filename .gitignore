@@ -1,0 +1,27 @@
+# Environment variables (use .env.example as template)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes (managed by docker-compose, not tracked)
+postgres_data/
+pgadmin_data/
