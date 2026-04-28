@@ -1,4 +1,4 @@
-# Docker Compose — Multi-Container Data Engineering Demo
+# Docker Compose — Applied Data Engineering Demo
 
 A small, reproducible data engineering stack orchestrated by **Docker Compose**:
 PostgreSQL, pgAdmin, and a Python ETL container that loads a CSV file into the
