@@ -90,7 +90,7 @@ docker compose run --rm etl_app
 To open a SQL shell directly against the database:
 
 ```bash
-docker compose exec postgres psql -U de_user -d de_demo -c "SELECT COUNT(*) FROM sales;"
+docker compose exec postgres psql -U de_user -d de_demo
 ```
 
 To use pgAdmin in the browser:
