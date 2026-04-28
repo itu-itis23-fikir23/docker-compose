@@ -203,8 +203,6 @@ I used **Anthropic Claude** as an assistant during this assignment. Specifically
 - **README structure**: I asked Claude to suggest a readable section layout
   for the assignment requirements; the technical content and commands were
   verified by actually running the stack on my machine.
-- **Slide deck**: I drafted the slide outline with Claude, then trimmed and
-  rewrote the speaker notes in my own voice.
 
 No AI-generated content was submitted without being read, executed, and
 verified end-to-end.
