@@ -105,6 +105,19 @@ To use pgAdmin in the browser:
    - Username: `de_user`
    - Password: `de_password`
 
+To verify the data in pgAdmin:
+
+1. In the left panel, expand Servers → de_demo → Databases → de_demo → Schemas → public → Tables
+2. Right-click sales → View/Edit Data → All Rows — you should see all 15 rows
+3. To see revenue by category, click Tools → Query Tool and run:
+
+```sql
+SELECT category, SUM(quantity * unit_price)::numeric(10,2) AS revenue
+FROM sales
+GROUP BY category
+ORDER BY revenue DESC;
+```
+
 To stop everything:
 
 ```bash
